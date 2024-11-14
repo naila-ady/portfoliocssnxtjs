@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import img from "../../public/images/her02.webp";
+import img from "../../public/assets/her02.webp";
 import "../style/pages.css";
 import  {} from "react-icons/fa";
 import {FaFacebook, FaYoutubeSquare,FaTwitterSquare,FaTiktok, FaInstagramSquare} from "react-icons/fa";
