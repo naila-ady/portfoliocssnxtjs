@@ -1,16 +1,14 @@
 
 import Image from "next/image";
-import img from "../../public/assets/her02.webp";
-import "../style/pages.css";
-import  {} from "react-icons/fa";
+import img from "../public/assets/her02.webp";
+import "./style/page.css";
 import {FaFacebook, FaYoutubeSquare,FaTwitterSquare,FaTiktok, FaInstagramSquare} from "react-icons/fa";
 import {FaBarsProgress} from "react-icons/fa6";
 import Link from "next/link";
 import { FaHome } from "react-icons/fa"
-// import { WiMoonAltWaxingCrescent1 } from "react-icons/wi";
 import { GrServices } from "react-icons/gr";
 import { MdOutlinePriceCheck , MdContacts } from "react-icons/md";
-// import { SiHyperskill } from "react-icons/si";
+
 
 
    export default function Home() {
@@ -74,16 +72,11 @@ import { MdOutlinePriceCheck , MdContacts } from "react-icons/md";
       <div className="left">
 
   <ul className="header-links">
-   {/* <li>
-    <Link href="/"><h1>< WiMoonAltWaxingCrescent1/></h1></Link>
- </li> */}
-
+   
     <li>
       <Link href="/"><h1><FaHome/></h1>Home</Link>
    </li>
-    {/* <li>
-    <Link href="/skills"><h1><SiHyperskill/></h1>Skills</Link>
- </li> */}
+   
    <li>
     <Link href="/services"><h1><GrServices/></h1>Services</Link>
    </li>
