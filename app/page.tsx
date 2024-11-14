@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import img from "../public/assets/her02.webp";
-import "./style/page.css";
+import "./style/pages.css";
 import {FaFacebook, FaYoutubeSquare,FaTwitterSquare,FaTiktok, FaInstagramSquare} from "react-icons/fa";
 import {FaBarsProgress} from "react-icons/fa6";
 import Link from "next/link";

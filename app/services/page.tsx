@@ -1,5 +1,5 @@
 
-import "../../style/services.css";
+import "../style/services.css";
 import {PiLaptopBold   } from "react-icons/pi";
 import { FaLaptopCode, FaBlog ,FaFigma   } from "react-icons/fa";
 import { MdDomainAdd } from "react-icons/md";

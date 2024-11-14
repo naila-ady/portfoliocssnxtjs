@@ -1,5 +1,5 @@
 
-import "../../style/price.css"
+import "../style/services.css";
 
 export default function Price(){
     return(

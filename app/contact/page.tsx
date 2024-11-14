@@ -1,4 +1,4 @@
-import "../../style/contact.css";
+import "../style/contact.css";
 import Link from "next/link"
 
 
