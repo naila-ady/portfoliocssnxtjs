@@ -1,0 +1,119 @@
+
+ /* Main Section */
+ .price-plan-section {
+  position: relative;
+  width: 100%;
+  min-height: 1000px;  
+  padding: 30px;
+  background-color:#d5d5d2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  left:30px;
+    right:30px;
+    top:30px;
+}
+.price-plan-section h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #176399;
+}
+.price-plan-para {
+  font-size: 26px;
+  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: #FFB400;
+  margin-top: 30px;
+}
+
+/* Pricing Plans Container */
+   .plans {
+  width:80%;
+  height:800px; 
+  margin-top:80px;
+  display: flex;
+  flex-direction: column; 
+  flex-wrap: wrap;
+   align-items: center;
+    background-color:#d5d5d2;
+ }  
+.plan1{
+  width: 30%;
+  min-height:700px;
+  border: 2px solid #176399;
+  background-color: #ffff;
+}
+
+/* Rate Text Styling */
+.rate {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  color:#176399;
+  padding: 10px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+/* Individual Plan Styling */
+.plan1 h3 {
+  margin-top: 20px;
+color:#176399;
+  font-size:40px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+/* Plan Description */
+.plan1 p {
+  color:#FFB400;
+  font-size:25px;
+}
+.plan1 ul{
+  text-decoration: none;
+}
+.plan1 li{
+  font-size:20px;
+  list-style-type: none;
+  height:50px;
+  color:#176399;
+
+}
+.bttn{
+  width:200px;
+  height:70px;
+  background-color: #FFB400;
+  color: #176399;
+  font-size:22px;
+  font-weight: bolder;
+  border-radius:30px;
+  border: 2px solid #176399;
+}
+
+
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .price-plan-section {
+      padding: 15px;
+  }
+
+  .plans {
+      width: 90%;  
+      min-height: 500px;  
+  }
+
+  .plan1 h3 {
+      font-size: 16px;  
+  }
+
+  .rate {
+      font-size: 14px; 
+  }
+}

@@ -1,0 +1,194 @@
+.service-section{
+  position:absolute;
+  width:98%;
+  height:1100px; 
+  left:20px;
+  top:50px;
+  background-color:#d5d2d2;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap:8px;
+  align-items:center;
+  margin-right:80px;
+
+}
+.service-section h2{
+font-size:48px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight:bolder;
+text-transform: capitalize;
+color:#176399;
+width:300px;
+position: absolute;
+text-align:center;
+top:8px;
+
+}
+
+.service-heading-para{
+position: absolute;
+width:800px;
+font-size:35px ;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+font-weight:bold ;
+line-height:1 ;
+text-transform:capitalize ;
+text-align: center;
+color:#FFB400;
+
+top:90px;
+}
+
+.boxes{
+position:relative;
+width:30%;
+height:270px;
+margin-top:220px;
+font-family:'Gill Sans', sans-serif;
+text-align: center;
+text-transform: capitalize;
+gap:10px;
+background-color:#FFF;
+display: flex;
+flex-direction:column;
+flex-wrap:wrap;
+align-items: center;
+  justify-content: center;
+}
+.boxes h1{
+  font-size:35px;
+  font-weight:600;
+  margin-top:20px;
+  color:#176399;
+}
+.boxes h4{
+  font-size:22px;
+  font-weight:600;
+  margin-top:40px;
+  color:#176399;
+}
+.boxes p{
+  font-size: 18px;
+  font-weight:300;
+  margin-top:15px;
+  color:#FFB400;
+}
+.spn2{
+  color: #FFB400;
+  font-size:18px;
+
+}
+
+
+
+@media screen and (min-width: 266px) and (max-width: 466px) {
+  .service-section {
+      height: auto; 
+      margin-right: 20px; 
+  }
+
+  .service-section h2 {
+      font-size:20px; 
+      width:200px;
+      top: 20px; 
+  }
+
+  .service-heading-para {
+      width:90%; 
+      font-size:12px; 
+      top:60px;
+  }
+  .boxes {
+      width:80%;
+      height: auto;
+      margin-top: 120px;
+  }
+  .boxes h1 {
+      font-size: 22px; 
+  }
+
+  .boxes h4 {
+      font-size: 16px; 
+  }
+
+  .boxes p {
+      font-size: 14px; 
+      margin-bottom: 10px;
+  }
+}
+
+/* For screens between 467px and 667px */
+@media screen and (min-width: 467px) and (max-width: 967px) {
+  .service-section {
+      height: auto;
+      margin-right: 40px;
+  }
+
+  .service-section h2 {
+      font-size: 30px; 
+      width: 250px; 
+      top:10px; 
+  }
+
+  .service-heading-para {
+      width:75%; 
+      font-size:18px;
+      top:70px;
+  }
+
+  .boxes {
+      width:60%; 
+      height: auto; 
+      margin-top: 170px; 
+  }
+
+  .boxes h1 {
+      font-size: 26px;
+  }
+
+  .boxes h4 {
+      font-size: 18px; 
+  }
+
+  .boxes p {
+      font-size: 16px;
+  }
+}
+
+/* For screens between 668px and 988px */
+@media screen and (min-width: 968px) and (max-width:1240px) {
+  .service-section {
+      height: auto;
+      margin-right: 60px; 
+  }
+  .service-section h2 {
+      font-size: 36px; 
+      width: 270px;
+      top:10px; 
+  }
+
+  .service-heading-para {
+      width: 90%; 
+      font-size: 30px;
+      top: 150px; 
+  }
+
+  .boxes {
+      width:45%; 
+      margin-top:280px;
+  }
+
+  .boxes h1 {
+      font-size:30px;
+      margin-bottom:20px;
+  }
+
+  .boxes h4 {
+      font-size: 20px;
+  }
+  .boxes p {
+      font-size: 18px;
+  }
+}
+  
