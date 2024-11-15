@@ -1,19 +1,17 @@
 
  /* Main Section */
  .price-plan-section {
-  position: relative;
+ 
   width: 100%;
-  min-height: 1000px;  
-  padding: 30px;
+  min-height:1100px;  
+  
   background-color:#d5d5d2;
   display: flex;
-  justify-content: center;
+  
   flex-direction: column;
   align-items: center;
   text-align: center;
-  left:30px;
-    right:30px;
-    top:30px;
+ 
 }
 .price-plan-section h2 {
   font-size: 38px;
@@ -95,25 +93,99 @@ color:#176399;
   border-radius:30px;
   border: 2px solid #176399;
 }
+@media screen and (min-width: 266px) and (max-width: 666px){
+
+  .price-plan-section{
+    
+    height:2500px;
+     display: flex;
+     flex-direction:column;
+     flex-wrap: wrap;
+     align-items:center;
+     justify-content: flex-start;
+     
+     
+     
+    
+    
+  }
+       .price-plan-section h2{
+       width:100%;
+           font-size: 42px; 
+  }
+     .price-plan-para {
+    width:80% ;
+    font-size: 30px;
+ 
+  }
+    .plans {
+      width:90%;
+      height: auto;
+      display: flex;
+       flex-direction:row;
+     flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap:30px;
+   
+    
+    }
+    .plan1{
+      width:100%;
+          display: flex;
+      flex-direction:column;
+          flex-wrap: wrap;
+      align-items: center;
+     
+    }
+     .plan1 h3{
+      width:100%;
+      font-size:42px;
+    }
+    
+        .plan1 p{
+       width:70%;
+        font-size:30px;
+      
+    }
+      .rate{
+        width:80%;
+      font-size:30px;
+    }
+    .bttn{
+      width: 65%;
+    }
+
+}
 
 
-
-/* Responsive Design for Smaller Screens */
-@media (max-width: 768px) {
+ @media (min-width: 667px) and (max-width: 940px) {
   .price-plan-section {
       padding: 15px;
   }
 
   .plans {
-      width: 90%;  
-      min-height: 500px;  
+      width:96%;  
+      min-height:700px;  
+
+  }
+  .price-plan-para {
+    width:80% ;
+    font-size: 30px;
+ 
   }
 
   .plan1 h3 {
       font-size: 16px;  
   }
+   .plan1 h3 {
+      font-size: 16px;  
+   }
 
   .rate {
       font-size: 14px; 
   }
-}
+  .bttn{
+    width: 150px;
+  
+  }
+} 
