@@ -1,13 +1,10 @@
 
  /* Main Section */
  .price-plan-section {
- 
   width: 100%;
   min-height:1100px;  
-  
-  background-color:#d5d5d2;
+  background-color:blanchedalmond;
   display: flex;
-  
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -37,7 +34,7 @@
   flex-direction: column; 
   flex-wrap: wrap;
    align-items: center;
-    background-color:#d5d5d2;
+    background-color:blanchedalmond;
  }  
 .plan1{
   width: 30%;
@@ -96,39 +93,36 @@ color:#176399;
 @media screen and (min-width: 266px) and (max-width: 666px){
 
   .price-plan-section{
-    
+    width: 100%;
     height:2500px;
-     display: flex;
+     display:flex;
      flex-direction:column;
-     flex-wrap: wrap;
+     flex-wrap:wrap;
      align-items:center;
-     justify-content: flex-start;
-     
-     
-     
-    
+     justify-content: flex-start; 
     
   }
        .price-plan-section h2{
        width:100%;
            font-size: 42px; 
   }
+
      .price-plan-para {
     width:80% ;
     font-size: 30px;
  
   }
     .plans {
-      width:90%;
-      height: auto;
-      display: flex;
+      width: 100%;
+       display: flex;
        flex-direction:row;
      flex-wrap: wrap;
     justify-content:space-evenly;
     gap:30px;
-   
-    
+    margin-top:180px;
     }
+
+    
     .plan1{
       width:100%;
           display: flex;
