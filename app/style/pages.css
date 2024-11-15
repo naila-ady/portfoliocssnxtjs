@@ -9,6 +9,7 @@
   margin-right:5px;
   justify-content: space-between;
   background-color: #f6f6f6;
+
 }
 
 .main-container {
@@ -16,7 +17,7 @@
   width:63%;
   height: 1000px;
   flex-direction: row;
-  background-color: floralwhite;
+  background-color:blanchedalmond;
 }
 
 .main-container-left {
@@ -72,7 +73,7 @@
 .panel-container{
 width:22%;
 height:1190px;
-background-color:floralwhite;
+background-color:blanchedalmond;
 display: flex;
 flex-direction:column;
 margin-left:2px;
@@ -212,7 +213,7 @@ text-align: center;
 .left{
 width:12%;
 height:1190px;
-background-color:floralwhite;
+background-color:blanchedalmond;
 display:flex;
 flex-direction:column;
 justify-content:space-between;
@@ -248,9 +249,10 @@ margin-right:2px;
 .full-page {
   width:100%;
   display:flex;
-  flex-direction:column;
+  flex-direction:column-reverse;
   flex-wrap: wrap;
   height: auto;
+  gap: 30px;
 
 }
 
@@ -345,6 +347,7 @@ margin-right:2px;
 .left{
   width:100%;
   margin-left: 0px;
+ 
 }
 
 .header-links {
@@ -368,10 +371,11 @@ margin-right:2px;
 /*  For devices with screen width of 466px  */
 @media screen and (min-width: 567px) and (max-width: 967px) {
 .full-page {
-  flex-direction: column;
+  flex-direction:column-reverse;
   height:auto;
   margin-top: 10px;
   width:100%;
+  gap:30px;
 }
 
 .main-container {
